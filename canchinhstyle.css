@@ -5,8 +5,7 @@
 }
 
 body{
-    width: 1280px;
-    height: 1280px;
+    
     background-color:rgb(44,44,44);
     
 }
@@ -14,6 +13,8 @@ a{
     text-decoration: none;
     color:#c02ac0
 }
+
+
 
 .top-bar{
     width: 100%;
