@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="canchinhstyle.css" /> 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <script src="main.js" defer></script>
     </head>
     <body>
        
@@ -22,11 +23,11 @@
             <p>Visual assets</p>
             <p>Whiteboarding</p>
             <p>More</p>
-            <div class="icon-user"><i class="fa-solid fa-user"></i></div>
+            <div class="icon-user"><button onclick="Switchs()" id="swbr" class="login"><i class="fa-solid fa-user"></i></button></div>
             </div>
         </section>
         <section class="left-bar">
-            <img src="https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/434716052_1904897799928318_756117864819906628_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=_13V8QyGCvUAb6OeG76&_nc_ht=scontent.fsgn2-7.fna&oh=00_AfBi13S2PDDsC88Dy7_uIDNOwDt5wOy8eoLuPuXgFC3xQg&oe=6615395C" href="avt">
+            <img src="https://scontent.fsgn5-5.fna.fbcdn.net/v/t39.30808-1/434716052_1904897799928318_756117864819906628_n.jpg?stp=dst-jpg_p160x160&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Vfcfu9hzoaIQ7kNvgHqjZIt&_nc_ht=scontent.fsgn5-5.fna&oh=00_AYBCl9ZKLEN0iWLN7zuq-5aZr3DQwf5tHhZbUiMVJvOoFg&oe=66495B9E" href="avt">
             <p class="name-admin">DUY PHAM</p>
             <p class="mail">phucduygg8485@gmail.com</p>
 
@@ -96,6 +97,9 @@
                 <p>Watch the video</p>
             </div>
             </a>
+            <div class="icon-heart">
+                <button onclick="Toggle1()" id="btt1" class="btt"><i class="fa-solid fa-heart" ></i></button>
+            </div>
         </section>
         <section class="actor2">
             <img class="emi" src="https://i.vgt.vn/2021/11/3/yua-mikami-sap-theo-chong-bo-cuoc-choi-giong-aoi-sora-khien-cac-fan-lo-lang-c09-6134976.jpg" alt="emi fukada">
@@ -106,7 +110,9 @@
                 <p>Watch the video</p>
             </div>
             </a>
-        </section>
-        
+            <div class="icon-heart">
+                <button onclick="Toggle2()" id="btt2" class="btt"><i class="fa-solid fa-heart"></i></button>
+            </div>
+        </section> 
     </body>
 </html>

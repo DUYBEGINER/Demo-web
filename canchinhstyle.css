@@ -5,8 +5,7 @@
 }
 
 body{
-    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/743/659/desktop-wallpaper-ultra-black-backgrounds-3840x2160-dark-web.jpg");
-    /* background-color:rgb(44,44,44); */
+    background-color:rgb(44,44,44);
 
 }
 a{
@@ -14,7 +13,17 @@ a{
     color:#c02ac0;
 }
 
+.login{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: grey;
+    font-size: 20px;
+}
 
+.login i:hover{
+    cursor: pointer;
+}
 
 .top-bar{
     width: 100%;
@@ -98,6 +107,36 @@ a{
     background-color: rgb(56,56,56);
     border-radius: 10px;
     
+}
+
+.btt{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: grey;
+}
+
+.actor .btt i:hover{
+    cursor: pointer;
+}
+
+.actor2 .btt i:hover{
+    cursor: pointer;
+}
+
+.icon-heart{
+    position: absolute;
+    font-size: 23px;
+}
+
+.actor .icon-heart{
+    left: 525px;
+    bottom: 15px;
+}
+
+.actor2 .icon-heart{
+    left: 200px;
+    bottom: 15px;
 }
 
 .name_actor{
@@ -187,6 +226,9 @@ a{
     left: 20px;    
 }
 
+.actor2 .button_info{
+    left: 25px;
+}
 .name-admin{
     color:#ffffff;
     font-family: WhyteInktrap, sans-serif;
